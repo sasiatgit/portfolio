@@ -1,0 +1,10 @@
+@layer base {
+  body {
+    @apply bg-base-100 text-base-content;
+  }
+
+  ::selection {
+    background: rgba(125, 211, 252, 0.35);
+    color: #f8fbff;
+  }
+}
