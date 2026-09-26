@@ -7,6 +7,8 @@ export type SkillGroup = {
 export type Project = {
   title: string
   stack: string
+  url?: string
+  highlights?: string[]
   description: string
 }
 
@@ -32,14 +34,39 @@ export const skillGroups: SkillGroup[] = [
     items: ['Node.js', 'Express.js', 'REST APIs', 'Authentication', 'Business Logic', 'Postman', 'Data Validation'],
   },
   {
-    title: 'QA, Cloud and Delivery',
+    title: 'QA and Release Engineering',
     description:
       'Driving product quality through automation, CI/CD, and production-focused release practices used in large-scale systems.',
-    items: ['Selenium WebDriver', 'Jenkins', 'GitHub', 'AWS (EC2, S3, Lambda)', 'CI/CD', 'PostgreSQL', 'MySQL', 'MongoDB', 'Agile'],
+    items: ['Selenium WebDriver', 'API Testing', 'Jenkins', 'GitHub', 'CI/CD', 'Release Validation', 'Agile'],
+  },
+  {
+    title: 'Cloud Infrastructure and Deployment',
+    description:
+      'Connecting application hosting, managed databases, and cloud messaging services, with secure environment configuration and controlled database migrations. Applied hands-on in NammaTravelAssist.',
+    items: ['Vercel', 'Neon PostgreSQL', 'AWS End User Messaging', 'Amazon SNS', 'IAM Permissions', 'HTTPS Webhooks', 'Database Migrations'],
+  },
+  {
+    title: 'Product, Marketing and Growth',
+    description:
+      'Connecting technical delivery with the wider product journey, from defining an MVP to launch, marketing, and ongoing improvement.',
+    items: ['MVP Development', 'Product Launch', 'Marketing', 'Growth', 'End-to-End Delivery'],
   },
 ]
 
 export const projects: Project[] = [
+  {
+    title: 'NammaTravelAssist',
+    stack: 'Next.js • Vercel • Neon PostgreSQL • AWS',
+    url: 'https://nammatravelassist.com',
+    description:
+      'Built a travel assistance platform connecting travellers and people seeking a travel companion, with journey registration, admin workflows, WhatsApp authentication, and referral features. My work spans product development, cloud infrastructure, deployment, integrations, and growth.',
+    highlights: [
+      'Cloud delivery: Next.js on Vercel with Neon PostgreSQL, server-only configuration, and versioned database migrations.',
+      'Authentication: WhatsApp OTP through AWS End User Messaging, with scoped IAM permissions and server-side rate limiting.',
+      'Messaging: two-way admin WhatsApp inbox with signature-verified Amazon SNS webhooks and delivery/read/failure tracking.',
+      'Growth: permanent referral codes, WhatsApp sharing, admin messaging tools, and search visibility improvements.',
+    ],
+  },
   {
     title: 'Full-Stack Web Application Delivery (Freelance)',
     stack: 'React • TypeScript • Node.js • Express • MongoDB/MySQL',
@@ -63,9 +90,9 @@ export const projects: Project[] = [
 export const experience: ExperienceItem[] = [
   {
     period: '2024 - Present',
-    role: 'Full Stack Developer (Freelance)',
+    role: 'Independent Tech Developer (Freelance)',
     summary:
-      'Delivering full-stack applications using React, TypeScript, Node.js, and Express with MongoDB/MySQL integration, API design, testing, and CI/CD support.',
+      'Taking ideas from concept to MVP and production across full-stack development, testing, cloud infrastructure, deployment, and integrations, with work extending to marketing and growth.',
   },
   {
     period: '2023 - 2024',

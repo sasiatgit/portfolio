@@ -7,10 +7,11 @@ function ContactUs() {
         <p className="section-kicker">Contact</p>
         <div className="mt-5 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-4xl text-white">Let&apos;s build your next web product with dependable engineering and high delivery quality.</h2>
+            <h2 className="font-serif text-4xl text-white">Have an idea? Let&apos;s bring it to life.</h2>
             <p className="mt-4 text-lg leading-8 text-slate-300">
-              I collaborate with business teams and founders to deliver full-stack applications, QA-backed releases, and
-              clear implementation plans. Available for remote projects with U.S. clients.
+              I’m here to connect, collaborate, and explore freelance opportunities. Whether you’re a founder
+              building an MVP, a business needing cloud setup, deployment, or product improvements, or a freelancer looking for a
+              technical collaborator, let’s talk.
             </p>
           </div>
           <div className="flex w-full max-w-2xl flex-col gap-4 sm:items-end">

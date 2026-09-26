@@ -6,13 +6,13 @@ function Experience() {
       <div className="section-intro">
         <div>
           <p className="section-kicker">Experience</p>
-          <h2 className="section-heading">Delivery history across freelance full-stack work and large U.S. enterprise platforms.</h2>
+          <h2 className="section-heading">From QA and automation to independent product delivery.</h2>
         </div>
         <p className="section-copy">
-          End-to-end contribution from engineering to release quality, with experience in high-scale systems and client-facing execution.
+          15+ years in IT, including around six years onsite in Boston, USA, working across engineering, quality, and client delivery.
         </p>
       </div>
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 md:grid-cols-2">
         {experience.map((item) => (
           <article
             key={`${item.period}-${item.role}`}

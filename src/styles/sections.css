@@ -20,7 +20,7 @@
   }
 
   .hero-actions {
-    @apply mt-10 flex flex-col gap-4 sm:flex-row;
+    @apply mt-10 flex flex-col flex-wrap gap-4 sm:flex-row;
   }
 
   .hero-primary {

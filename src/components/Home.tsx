@@ -1,5 +1,5 @@
 import profilePhoto from '../../resources/photo_filtered.png'
-import resumeFile from '../../resources/Sasikumar_Karikalan_FullStackDev_Resume .pdf'
+import resumeFile from '../../resources/Sasikumar_Karikalan_Latest.pdf'
 
 type StatCardProps = {
   value: string
@@ -17,32 +17,32 @@ function Home() {
       <div className="grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
         <div className="lg:pt-6">
           <p className="premium-badge mb-4 inline-flex">
-            Full Stack Developer and QA Engineer, AI Powered
+            Independent Tech Developer
           </p>
           <h1 className="max-w-4xl font-serif text-5xl leading-tight text-white sm:text-6xl lg:text-7xl">
-            15+ years of delivering reliable web products with strong engineering and quality foundations.
+            From an idea to a production-ready product.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            I help businesses build and ship high-impact products across frontend, backend, and QA. From modern React
-            applications to API integrations and release validation, I focus on performance, stability, and client-ready
-            execution.
+            Hi, I’m Sasikumar. I bring 15+ years in IT and around six years onsite in Boston, USA.
+            I independently take ideas from concept to MVP to production, across full-stack development,
+            testing, cloud infrastructure, deployment, integrations, marketing, and growth.
           </p>
           <div className="hero-actions">
             <a
-              href="#projects"
+              href="#contact"
               className="hero-primary"
             >
-              View Projects
+              Let’s Build Your MVP
             </a>
             <a
-              href="#contact"
+              href="#projects"
               className="hero-secondary"
             >
-              Start a Conversation
+              Explore My Work
             </a>
             <a
               href={resumeFile}
-              download="Sasikumar_Karikalan_FullStackDev_Resume.pdf"
+              download="Sasikumar_Karikalan_Latest.pdf"
               className="hero-secondary"
             >
               Download Resume
@@ -50,22 +50,22 @@ function Home() {
           </div>
           <div className="hero-metric-grid">
             <StatCard value="15+" label="Years in software delivery" />
-            <StatCard value="300+" label="Releases coordinated and delivered" />
-            <StatCard value="30X" label="Product scale-up contribution" />
+            <StatCard value="~6" label="Years onsite in Boston, USA" />
+            <StatCard value="End-to-end" label="From concept to production" />
           </div>
         </div>
 
         <div className="relative">
           <div className="showcase-shell">
             <div className="showcase-panel">
-              <div className="flex items-center justify-between">
+              <div className="flex flex-wrap items-center justify-between gap-3">
                 <p className="text-sm uppercase tracking-[0.3em] text-white/60">Developer Snapshot</p>
-                <span className="badge border-sky-300/20 bg-sky-400/15 px-3 py-3 text-xs text-sky-100">Available for work</span>
+                <span className="badge border-sky-300/20 bg-sky-400/15 px-3 py-3 text-xs text-sky-100">Open to freelance work</span>
               </div>
               <div className="mt-8 overflow-hidden rounded-[1.5rem] border border-white/10 bg-white/5 shadow-[0_20px_60px_rgba(2,6,23,0.35)]">
                 <img
                   src={profilePhoto}
-                  alt="Portrait of Sasi Kumar"
+                  alt="Portrait of Sasikumar Karikalan"
                   className="h-[420px] w-full object-cover object-top"
                 />
               </div>
@@ -73,12 +73,14 @@ function Home() {
                 <FeatureRow label="Frontend" value="React • Next.js • TypeScript • Responsive UI" />
                 <FeatureRow label="Backend" value="Node.js • Express • REST APIs" />
                 <FeatureRow label="Database" value="PostgreSQL • MySQL • MongoDB" />
-                <FeatureRow label="Focus" value="Quality • Performance • Scalable Delivery" />
+                <FeatureRow label="Cloud" value="Vercel • Neon PostgreSQL • AWS • Amazon SNS" />
+                <FeatureRow label="Delivery" value="Testing • Deployment • Integrations" />
+                <FeatureRow label="Growth" value="Marketing • Product Launch • Iteration" />
               </div>
               <div className="mt-10 rounded-3xl bg-white/5 p-5">
-                <p className="text-sm text-sky-100/70">Current direction</p>
+                <p className="text-sm text-sky-100/70">Let’s collaborate</p>
                 <p className="mt-2 text-xl font-semibold">
-                  Building full-stack web solutions for business clients while supporting quality-focused releases and fast iteration.
+                  Have an idea, an MVP to launch, or a product to improve? I’m open to freelance projects and collaborations.
                 </p>
               </div>
             </div>

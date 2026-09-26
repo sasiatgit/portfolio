@@ -6,13 +6,13 @@ function Skills() {
       <div className="section-intro">
         <div>
           <p className="section-kicker">Skills</p>
-          <h2 className="section-heading">Technology choices that support polished products and dependable delivery.</h2>
+          <h2 className="section-heading">One partner across the product journey.</h2>
         </div>
         <p className="section-copy">
-          I prefer stacks that keep development fast, interfaces clean, and scaling realistic for production work.
+          From building the core product to testing, deployment, integrations, marketing, and growth.
         </p>
       </div>
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 md:grid-cols-2">
         {skillGroups.map((group) => (
           <article
             key={group.title}
