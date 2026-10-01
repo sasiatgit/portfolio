@@ -1,4 +1,4 @@
-import profilePhoto from '../../resources/photo_filtered.png'
+import profilePhoto from '../../resources/OfficialPhoto.png'
 import resumeFile from '../../resources/Sasikumar_Karikalan_Latest.pdf'
 
 type StatCardProps = {
