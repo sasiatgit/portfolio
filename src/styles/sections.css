@@ -1,22 +1,22 @@
 @layer components {
   .premium-badge {
-    @apply badge border-white/10 bg-white/5 px-4 py-3 text-sky-100;
+    @apply badge border-black/10 bg-white/5 px-4 py-3 text-black;
   }
 
   .premium-chip {
-    @apply rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-sky-100;
+    @apply rounded-full border border-black/10 bg-white/5 px-4 py-2 text-sm font-medium text-black;
   }
 
   .premium-stat {
-    @apply rounded-[1.5rem] border border-white/10 bg-white/5 p-5 shadow-[0_16px_40px_rgba(2,6,23,0.35)] backdrop-blur;
+    @apply rounded-[1.5rem] border border-black/10 bg-white/5 p-5 shadow-[0_16px_40px_rgba(2,6,23,0.35)] backdrop-blur;
   }
 
   .premium-card {
-    @apply rounded-[1.75rem] border border-sky-200/10 bg-[linear-gradient(180deg,_rgba(12,22,42,0.92),_rgba(8,16,31,0.96))] p-7 shadow-[0_18px_50px_rgba(2,6,23,0.4)] transition duration-300 hover:-translate-y-1 hover:border-sky-300/30;
+    @apply rounded-[1.75rem] border border-sky-200/10 bg-white/30 p-7 shadow-[0_18px_50px_rgba(2,6,23,0.4)] transition duration-300 hover:-translate-y-1 hover:border-sky-300/30;
   }
 
   .premium-card-soft {
-    @apply rounded-[1.75rem] border border-sky-200/10 bg-[linear-gradient(180deg,_rgba(255,255,255,0.06),_rgba(255,255,255,0.03))] p-6 shadow-[0_16px_40px_rgba(2,6,23,0.3)] transition duration-300 hover:-translate-y-1 hover:border-sky-300/30;
+    @apply rounded-[1.75rem] border border-sky-200/10 bg-white/30 p-6 shadow-[0_16px_40px_rgba(2,6,23,0.3)] transition duration-300 hover:-translate-y-1 hover:border-sky-300/30;
   }
 
   .hero-actions {
@@ -24,11 +24,11 @@
   }
 
   .hero-primary {
-    @apply btn btn-primary rounded-full border-0 px-7 text-sm font-semibold text-primary-content shadow-[0_12px_30px_rgba(125,211,252,0.2)];
+    @apply btn btn-primary rounded-full border-0 px-7 text-sm font-semibold text-black shadow-[0_12px_30px_rgba(125,211,252,0.2)];
   }
 
   .hero-secondary {
-    @apply btn rounded-full border border-white/15 bg-white/5 px-7 text-sm font-semibold text-white hover:border-white/25 hover:bg-white/10;
+    @apply btn rounded-full border border-black/15 bg-white/5 px-7 text-sm font-semibold text-black hover:border-black/25 hover:bg-white/10;
   }
 
   .hero-metric-grid {
@@ -36,26 +36,26 @@
   }
 
   .showcase-shell {
-    @apply rounded-[2rem] border border-white/10 bg-white/5 p-4 shadow-[0_30px_80px_rgba(2,6,23,0.45)] backdrop-blur;
+    @apply rounded-[2rem] border border-black/10 bg-white/5 p-4 shadow-[0_30px_80px_rgba(2,6,23,0.45)] backdrop-blur;
   }
 
   .showcase-panel {
-    @apply rounded-[1.75rem] bg-[linear-gradient(180deg,_rgba(15,23,42,0.92),_rgba(10,20,39,0.98))] p-7 text-white;
+    @apply rounded-[1.75rem] bg-white/30 p-7 text-black;
   }
 
   .feature-row {
-    @apply flex items-center justify-between gap-4 border-b border-white/10 pb-4 text-sm;
+    @apply flex items-center justify-between gap-4 border-b border-black/10 pb-4 text-sm;
   }
 
   .stack-bubble {
-    @apply absolute -bottom-6 -left-6 hidden rounded-3xl border border-white/10 bg-[#0d1c35] px-5 py-4 shadow-xl lg:block;
+    @apply absolute -bottom-6 -left-6 hidden rounded-3xl border border-black/10 bg-[#b8e2f2] px-5 py-4 shadow-xl lg:block;
   }
 
   .project-shell {
-    @apply rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,_rgba(8,16,31,0.98),_rgba(4,10,21,0.98))] px-8 py-10 text-white shadow-[0_30px_80px_rgba(2,6,23,0.45)] lg:px-12 lg:py-14;
+    @apply rounded-[2rem] border border-black/10 bg-white/30 px-8 py-10 text-black shadow-[0_30px_80px_rgba(2,6,23,0.45)] lg:px-12 lg:py-14;
   }
 
   .contact-shell {
-    @apply rounded-[2rem] border border-white/10 bg-[linear-gradient(135deg,_rgba(10,20,39,0.98),_rgba(12,32,68,0.95)_55%,_rgba(7,17,32,0.98))] p-8 shadow-[0_22px_70px_rgba(2,6,23,0.4)] lg:p-12;
+    @apply rounded-[2rem] border border-black/10 bg-white/30 p-8 shadow-[0_22px_70px_rgba(2,6,23,0.4)] lg:p-12;
   }
 }

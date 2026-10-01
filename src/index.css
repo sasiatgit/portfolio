@@ -13,7 +13,8 @@ html {
 body {
   margin: 0;
   font-family: "Avenir Next", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #071120;
+  background: #87ceeb;
+  color: #000000;
 }
 
 * {
@@ -30,7 +31,7 @@ section[id] {
 }
 
 a:focus-visible {
-  outline: 2px solid #7dd3fc;
+  outline: 2px solid #000000;
   outline-offset: 4px;
 }
 

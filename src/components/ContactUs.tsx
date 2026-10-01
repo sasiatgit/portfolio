@@ -7,8 +7,8 @@ function ContactUs() {
         <p className="section-kicker">Contact</p>
         <div className="mt-5 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-4xl text-white">Have an idea? Let&apos;s bring it to life.</h2>
-            <p className="mt-4 text-lg leading-8 text-slate-300">
+            <h2 className="font-serif text-4xl text-black">Have an idea? Let&apos;s bring it to life.</h2>
+            <p className="mt-4 text-lg leading-8 text-black">
               I’m here to connect, collaborate, and explore freelance opportunities. Whether you’re a founder
               building an MVP, a business needing cloud setup, deployment, or product improvements, or a freelancer looking for a
               technical collaborator, let’s talk.
@@ -51,7 +51,7 @@ function ContactUs() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn profile"
-                className="flex h-14 w-14 items-center justify-center rounded-2xl border border-sky-300/30 bg-sky-400/10 text-sky-100 transition hover:bg-sky-400/20"
+                className="flex h-14 w-14 items-center justify-center rounded-2xl border border-sky-300/30 bg-sky-400/10 text-black transition hover:bg-sky-400/20"
               >
                 <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden="true">
                   <path d="M6.5 8.5A1.75 1.75 0 1 0 6.5 5a1.75 1.75 0 0 0 0 3.5zM5 10h3v9H5v-9zm5 0h2.9v1.3h.1c.4-.7 1.4-1.5 2.9-1.5 3.1 0 3.6 2 3.6 4.7V19h-3v-3.9c0-.9 0-2.2-1.4-2.2s-1.6 1-1.6 2.1V19h-3v-9z" />

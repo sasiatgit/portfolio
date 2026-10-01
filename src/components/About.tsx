@@ -4,9 +4,9 @@ function About() {
       <div className="section-panel grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
         <div>
           <p className="section-kicker">About</p>
-          <h2 className="mt-4 font-serif text-4xl text-white">An engineering foundation. An end-to-end product mindset.</h2>
+          <h2 className="mt-4 font-serif text-4xl text-black">An engineering foundation. An end-to-end product mindset.</h2>
         </div>
-        <div className="space-y-5 text-lg leading-8 text-slate-300">
+        <div className="space-y-5 text-lg leading-8 text-black">
           <p>
             My 15+ years in IT started in QA and automation, building a strong foundation in reliable software
             and production delivery. Around six years working onsite in Boston, USA gave me hands-on

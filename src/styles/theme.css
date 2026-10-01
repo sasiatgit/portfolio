@@ -1,10 +1,10 @@
 @layer base {
   body {
-    @apply bg-base-100 text-base-content;
+    @apply bg-[#87ceeb] text-black;
   }
 
   ::selection {
-    background: rgba(125, 211, 252, 0.35);
-    color: #f8fbff;
+    background: rgba(255, 255, 255, 0.6);
+    color: #000000;
   }
 }

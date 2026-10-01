@@ -18,9 +18,9 @@ function Experience() {
             key={`${item.period}-${item.role}`}
             className="premium-card"
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-200/70">{item.period}</p>
-            <h3 className="mt-4 text-2xl font-semibold text-white">{item.role}</h3>
-            <p className="mt-4 text-base leading-7 text-slate-300">{item.summary}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-black">{item.period}</p>
+            <h3 className="mt-4 text-2xl font-semibold text-black">{item.role}</h3>
+            <p className="mt-4 text-base leading-7 text-black">{item.summary}</p>
           </article>
         ))}
       </div>
